@@ -1,0 +1,15 @@
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\bin\Debug\net9.0\SmartCRM.Application.deps.json
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\bin\Debug\net9.0\SmartCRM.Application.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\bin\Debug\net9.0\SmartCRM.Application.pdb
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\bin\Debug\net9.0\SmartCRM.Domain.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\bin\Debug\net9.0\SmartCRM.Domain.pdb
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.csproj.AssemblyReference.cache
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.AssemblyInfoInputs.cache
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.AssemblyInfo.cs
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.csproj.CoreCompileInputs.cache
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.53B512EE.Up2Date
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\refint\SmartCRM.Application.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.pdb
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\ref\SmartCRM.Application.dll

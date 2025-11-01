@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\CV Projects\\8\\SmartCRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.infrastructure\\smartcrm.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|solutionrelative:smartcrm.infrastructure\\smartcrm.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmartCRM.Infrastructure",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj",
+              "RelativeToolTip": "SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T01:59:02.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

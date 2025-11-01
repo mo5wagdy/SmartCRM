@@ -91,3 +91,5 @@ H:\CV Projects\8\SmartCRM\SmartCRM.API\obj\Debug\net9.0\refint\SmartCRM.API.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.API\obj\Debug\net9.0\SmartCRM.API.pdb
 H:\CV Projects\8\SmartCRM\SmartCRM.API\obj\Debug\net9.0\SmartCRM.API.genruntimeconfig.cache
 H:\CV Projects\8\SmartCRM\SmartCRM.API\obj\Debug\net9.0\ref\SmartCRM.API.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\FluentValidation.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.API\obj\Debug\net9.0\SmartCRM.API.sourcelink.json

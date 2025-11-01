@@ -9,3 +9,4 @@ H:\CV Projects\8\SmartCRM\SmartCRM.Domain\obj\Debug\net9.0\SmartCRM.Domain.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.Domain\obj\Debug\net9.0\refint\SmartCRM.Domain.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.Domain\obj\Debug\net9.0\SmartCRM.Domain.pdb
 H:\CV Projects\8\SmartCRM\SmartCRM.Domain\obj\Debug\net9.0\ref\SmartCRM.Domain.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Domain\obj\Debug\net9.0\SmartCRM.Domain.sourcelink.json

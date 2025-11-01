@@ -13,3 +13,4 @@ H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Applica
 H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\refint\SmartCRM.Application.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.pdb
 H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\ref\SmartCRM.Application.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Application\obj\Debug\net9.0\SmartCRM.Application.sourcelink.json

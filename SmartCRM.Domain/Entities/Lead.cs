@@ -8,11 +8,19 @@ namespace SmartCRM.Domain.Entities
 {
     public class Lead
     {
-        public int Id { get; set; }
-        public string Source { get; set; } = string.Empty; // => eg. Website, Call
+        public int LeadId { get; set; }
         public string ContactName { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
         public string ContactPhone { get; set; } = string.Empty;
+        public string Source { get; set; } = string.Empty; // => eg. Website, Call
+        public string Status { get; set; } = "New"; // New, Contacted, Qualifieds
         public string? Notes { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        //Foreign Keys
+        public int? AssignedTo { get; set; }
+        public User? User { get; set; }
+        public int? CustomerId { get; set; }
+        public Customer? Customer { get; set; }
     }
 }

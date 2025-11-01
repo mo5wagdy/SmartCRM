@@ -8,10 +8,17 @@ namespace SmartCRM.Domain.Entities
 {
     public class Note
     {
-        public int Id { get; set; }
+        public int NoteId { get; set; }
         public string Content { get; set; } = string.Empty;
-        public int CustomerId { get; set; }
-        public Customer? Customer { get; set; }
+        public string RelatedTo { get; set; }
+        public int RelatedId { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        //Foreign Keys
+        public int? CreatedBy { get; set; }
+
+        //Optional Foreign Keys
+        public Customer? Customer { get; set; }
+        public User? User { get; set; }
     }
 }

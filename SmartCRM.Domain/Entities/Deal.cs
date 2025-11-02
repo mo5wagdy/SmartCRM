@@ -23,7 +23,7 @@ namespace SmartCRM.Domain.Entities
 
         //Relationships
         public ICollection<Note> Notes { get; set; }
-        public ICollection<Activity> Activities { get; set; }
+        public ICollection<Interaction> Interactions { get; set; }
         public ICollection<DealProduct> DealProducts { get; set; }
     }
 }

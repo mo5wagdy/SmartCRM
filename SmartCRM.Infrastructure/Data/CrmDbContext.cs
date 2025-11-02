@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SmartCRM.Domain.Entities;
+using SmartCRM.Infrastructure.Data.Configurations;
+using Microsoft.IdentityModel.Abstractions;
 
 namespace SmartCRM.Infrastructure.Data
 {
@@ -15,25 +17,23 @@ namespace SmartCRM.Infrastructure.Data
         }
 
         public DbSet<Customer> Customers => Set<Customer>();
-        public DbSet<Deal> Deals => Set<Deal>();
-        public DbSet<Note> Notes => Set<Note>();
-        public DbSet<Lead> Leads => Set<Lead>();
         public DbSet<User> Users => Set<User>();
+        public DbSet<Deal> Deals => Set<Deal>();
+        public DbSet<Lead> Leads => Set<Lead>();
+        public DbSet<Ticket> Tickets => Set<Ticket>();
+        public DbSet<Interaction> Interactions => Set<Interaction>();
+        public DbSet<Note> Notes => Set<Note>();
+        public DbSet<Company> Companies => Set<Company>();
+        public DbSet<Product> Products => Set<Product>();
+        public DbSet<DealProduct> DealProducts => Set<DealProduct>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Configure relationships and constraints if needed
-            modelBuilder.Entity<Customer>()
-                .HasMany(c => c.Deals)
-                .WithOne(d => d.Customer)
-                .HasForeignKey(d => d.CustomerId)
-                .OnDelete(DeleteBehavior.Cascade);
-            modelBuilder.Entity<Customer>()
-                .HasMany(c => c.Notes)
-                .WithOne(n => n.Customer)
-                .HasForeignKey(n => n.CustomerId)
-                .OnDelete(DeleteBehavior.Cascade);
+
+            // Apply all configurations from the current assembly
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CrmDbContext).Assembly);
         }
     }
 }

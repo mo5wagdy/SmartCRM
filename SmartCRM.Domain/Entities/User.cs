@@ -17,6 +17,9 @@ namespace SmartCRM.Domain.Entities
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public string Status { get; set; } = "Active"; // Active, Inactive
 
+        //Navigation Properties
+        public ICollection<Interaction>? Interactions { get; set; }
+
         //Relationships
         public ICollection<Lead>? Leads { get; set; }
         public ICollection<Deal>? Deals { get; set; }

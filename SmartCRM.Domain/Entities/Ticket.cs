@@ -17,7 +17,7 @@ namespace SmartCRM.Domain.Entities
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         //Foreign Keys
-        public int CustomerID { get; set; }
+        public int CustomerId { get; set; }
         public Customer? Customer { get; set; }
         public int? AssignedTo { get; set; }
         public User User { get; set; }

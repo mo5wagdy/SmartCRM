@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "H:\\CV Projects\\8\\SmartCRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.infrastructure\\data\\configurations\\dealconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|solutionrelative:smartcrm.infrastructure\\data\\configurations\\dealconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.infrastructure\\data\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FE9C87F-F6BB-4258-B63E-CDD75F29EB56}|SmartCRM.Infrastructure\\SmartCRM.Infrastructure.csproj|solutionrelative:smartcrm.infrastructure\\data\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\validation\\commonvalidators\\createdealdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\validation\\commonvalidators\\createdealdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251102121328_Initial Create.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs",
-              "RelativeToolTip": "SmartCRM.Infrastructure\\Migrations\\20251102121328_Initial Create.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:13:28.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DealConfiguration.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Data\\Configurations\\DealConfiguration.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Infrastructure\\Data\\Configurations\\DealConfiguration.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Data\\Configurations\\DealConfiguration.cs",
-              "RelativeToolTip": "SmartCRM.Infrastructure\\Data\\Configurations\\DealConfiguration.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:09:34.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerConfiguration.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Data\\Configurations\\CustomerConfiguration.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Infrastructure\\Data\\Configurations\\CustomerConfiguration.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Infrastructure\\Data\\Configurations\\CustomerConfiguration.cs",
-              "RelativeToolTip": "SmartCRM.Infrastructure\\Data\\Configurations\\CustomerConfiguration.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T12:08:33.173Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -90,6 +43,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDealDtoValidator.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
+              "RelativeDocumentMoniker": "SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
+              "RelativeToolTip": "SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:31:11.61Z",
+              "EditorCaption": ""
             }
           ]
         }

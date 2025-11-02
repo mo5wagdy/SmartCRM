@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SmartCRM.Infrastructure.Data;
+using SmartCRM.Infrastructure.Data.Seed;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add DbContext.
@@ -11,6 +12,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// apply migrations and seed (safe in dev; adapt for prod)
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<CrmDbContext>();
+    db.Database.Migrate(); // ensures DB is up to date
+    await DataSeeder.SeedAsync(scope.ServiceProvider);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

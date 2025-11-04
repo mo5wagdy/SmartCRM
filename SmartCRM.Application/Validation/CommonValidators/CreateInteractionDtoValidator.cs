@@ -13,6 +13,10 @@ namespace SmartCRM.Application.Validation.CommonValidators
         public CreateInteractionDtoValidator()
         {
             RuleFor(x => x.Title).NotEmpty().MaximumLength(250);
+            RuleFor(x => x.Description).MaximumLength(1000);
+            RuleFor(x => x.ImteractionType).NotEmpty().MaximumLength(50);
+            RuleFor(x => x.Status).NotEmpty().MaximumLength(50);
+            RuleFor(x => x.RelatedTo).NotEmpty();
             RuleFor(x => x.CreatedBy).GreaterThan(0);
         }
     }

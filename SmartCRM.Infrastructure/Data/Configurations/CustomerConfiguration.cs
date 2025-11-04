@@ -17,28 +17,17 @@ namespace SmartCRM.Infrastructure.Data.Configurations
 
             builder.HasKey(c => c.CustomerId);
 
-            builder.Property(c => c.FullName)
-                   .IsRequired()
-                   .HasMaxLength(200);
-
-            builder.Property(c => c.Email)
-                   .IsRequired()
-                   .HasMaxLength(100);
-
-            builder.Property(c => c.Phone)
-                   .IsRequired()
-                   .HasMaxLength(20);
-
-            builder.Property(c => c.Address)
-                   .IsRequired()
-                   .HasMaxLength(300);
-
-            builder.Property(c => c.Status)
-                   .HasMaxLength(50)
-                   .HasDefaultValue("Active");
-
-            builder.Property(c => c.CreatedAt)
-                   .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(c => c.FullName).IsRequired().HasMaxLength(200);
+            builder.Property(c => c.Email).IsRequired().HasMaxLength(100);
+            builder.Property(c => c.Phone).IsRequired().HasMaxLength(20);
+            builder.Property(c => c.Address).IsRequired().HasMaxLength(300);
+            builder.Property(c => c.CompanyName).HasMaxLength(200);
+            builder.Property(c => c.CustomerType).IsRequired().HasMaxLength(50);
+            builder.Property(c => c.CreatedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(c => c.UpdatedAt).IsRequired(false);
+            builder.Property(c => c.IsActive).HasDefaultValue(true);
+            builder.Property(c => c.IsDeleted).HasDefaultValue(false);
+            builder.Property(c => c.Status).IsRequired().HasMaxLength(50).HasDefaultValue("Active");
 
             //Relationships
 

@@ -15,6 +15,9 @@ namespace SmartCRM.Application.Dtos.Deal_Dtos
         string Stage,
         DateTime ExpectedCloseDate,
         DateTime CreatedDate,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted,
         int CustomerId,
         int? AssignedTo
     );

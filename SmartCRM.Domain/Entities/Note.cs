@@ -13,15 +13,18 @@ namespace SmartCRM.Domain.Entities
         public string RelatedTo { get; set; }
         public int RelatedId { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; }
 
         //Foreign Keys
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
         public int? CreatedBy { get; set; }
         public int? CustomerId { get; set; }
         public Deal? Deal { get; set; }
         public int? DealId { get; set; }
 
-        //Optional Foreign Keys
+        //Navigation Properties
         public Customer? Customer { get; set; }
         public User? User { get; set; }
     }

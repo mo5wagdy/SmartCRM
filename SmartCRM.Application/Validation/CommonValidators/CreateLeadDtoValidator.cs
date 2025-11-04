@@ -12,7 +12,11 @@ namespace SmartCRM.Application.Validation.CommonValidators
     {
         public CreateLeadDtoValidator()
         {
-            RuleFor(x => x.ContactName).NotEmpty().MaximumLength(200)
+            RuleFor(x => x.ContactName).NotEmpty().MaximumLength(200);
+            RuleFor(x => x.Email).NotEmpty().EmailAddress();
+            RuleFor(x => x.ContactPhone).MaximumLength(25);
+            RuleFor(x => x.Source).MaximumLength(100);
+            RuleFor(x => x.Status).NotEmpty().MaximumLength(50);
         }
     }
 }

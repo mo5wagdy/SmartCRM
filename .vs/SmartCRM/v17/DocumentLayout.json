@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\CV Projects\\8\\SmartCRM\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\validation\\commonvalidators\\createdealdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\validation\\commonvalidators\\createdealdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,19 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateDealDtoValidator.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
-              "RelativeToolTip": "SmartCRM.Application\\Validation\\CommonValidators\\CreateDealDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T20:31:11.61Z",
-              "EditorCaption": ""
             }
           ]
         }

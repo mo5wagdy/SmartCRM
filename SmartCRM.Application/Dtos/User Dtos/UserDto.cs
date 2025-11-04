@@ -9,11 +9,14 @@ namespace SmartCRM.Application.Dtos.User_Dtos
     public record UserDto
     (
         int UserId,
-        string UserName,
+        string FullName,
         string Email,
         string Phone,
         string Role,
+        string Status,
         DateTime CreatedAt,
-        string Status
+        DateTime? UpdatedAt,
+        bool IsActive,
+        string? ImagePath
     );
 }

@@ -13,7 +13,11 @@ namespace SmartCRM.Application.Validation.CommonValidators
         public CreateCustomerDtoValidator()
         {
             RuleFor(x => x.FullName).NotEmpty().MaximumLength(200);
-            RuleFor(x => x.Email).EmailAddress().When(x => !string.IsNullOrEmpty(x.Email));
+            RuleFor(x => x.Email).NotEmpty().EmailAddress();
+            RuleFor(x => x.Phone).NotEmpty().MaximumLength(25);
+            RuleFor(x => x.Address).NotEmpty().MaximumLength(300);
+            RuleFor(x => x.CompanyName).MaximumLength(200);
+            RuleFor(x => x.CustomerType).NotEmpty().MinimumLength(50);
         }
     }
 }

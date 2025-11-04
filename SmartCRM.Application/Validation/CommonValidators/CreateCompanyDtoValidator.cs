@@ -11,11 +11,13 @@ namespace SmartCRM.Application.Validation.CommonValidators
 {
     public class CreateCompanyDtoValidator : AbstractValidator<CreateCompanyDto>
     {
-        CreateCompanyDtoValidator()
+        public CreateCompanyDtoValidator()
         {
             RuleFor(x => x.CompanyName).NotEmpty().MaximumLength(200);
-            RuleFor(x => x.Email).EmailAddress().When(x => !string.IsNullOrEmpty(x.Email));
+            RuleFor(x => x.Address).NotEmpty().MaximumLength(300);
+            RuleFor(x => x.Industry).NotEmpty().MaximumLength(100);
+            RuleFor(x => x.Email).NotEmpty().EmailAddress();
+            RuleFor(x => x.Phone).NotEmpty().MaximumLength(25);
         }
-
     }
 }

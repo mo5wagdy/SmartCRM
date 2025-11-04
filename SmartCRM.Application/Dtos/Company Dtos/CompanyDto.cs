@@ -14,6 +14,9 @@ namespace SmartCRM.Application.Dtos.Company_Dtos
         string Industry,
         string Email,
         string Phone,
-        DateTime CreatedDate
+        DateTime CreatedDate,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted
     );
 }

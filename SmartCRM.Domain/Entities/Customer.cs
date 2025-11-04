@@ -16,9 +16,12 @@ namespace SmartCRM.Domain.Entities
         public string? CompanyName { get; set; }
         public string CustomerType { get; set; } = "Individual"; // Individual, Business
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; } = false;
         public string Status { get; set; } = "Active"; // Active, Inactive
 
-        //Relationships
+        //Navigation Properties
         public ICollection<Lead>? Leads { get; set; }
         public ICollection<Deal>? Deals { get; set; }
         public ICollection<Ticket>? Tickets { get; set; }

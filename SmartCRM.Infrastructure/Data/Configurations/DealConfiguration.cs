@@ -17,20 +17,13 @@ namespace SmartCRM.Infrastructure.Data.Configurations
 
             builder.HasKey(d => d.DealId);
 
-            builder.Property(d => d.Title)
-                   .IsRequired()
-                   .HasMaxLength(200);
-
-            builder.Property(d => d.Value)
-                   .IsRequired()
-                   .HasColumnType("decimal(18,2)");
-
-            builder.Property(d => d.Stage)
-                   .IsRequired()
-                   .HasMaxLength(100);
-
-            builder.Property(d => d.CreatedDate)
-                   .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(d => d.Title).IsRequired().HasMaxLength(200);
+            builder.Property(d => d.Value).IsRequired().HasColumnType("decimal(18,2)");
+            builder.Property(d => d.Stage).IsRequired().HasMaxLength(100);
+            builder.Property(d => d.CreatedDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(d => d.UpdatedAt).IsRequired(false);
+            builder.Property(d => d.IsActive).HasDefaultValue(true);
+            builder.Property(d => d.IsDeleted).HasDefaultValue(false);
 
             //Relationships
 

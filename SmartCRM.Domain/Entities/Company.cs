@@ -15,5 +15,8 @@ namespace SmartCRM.Domain.Entities
         public string Email { get; set; } = string.Empty;
         public string Phone { get; set; } = string.Empty;
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; } = false;
     }
 }

@@ -15,18 +15,15 @@ namespace SmartCRM.Infrastructure.Data.Configurations
         {
             builder.HasKey(p => p.ProductId);
 
-            builder.Property(p => p.Name)
-                .IsRequired()
-                .HasMaxLength(200);
-
-            builder.Property(p => p.Description)
-                .HasMaxLength(1000);
-
-            builder.Property(p => p.Price)
-                .HasColumnType("decimal(18,2)");
-
-            builder.Property(p => p.QuantityInStock)
-                .HasDefaultValue(0);
+            builder.Property(p => p.Name).IsRequired().HasMaxLength(200);
+            builder.Property(p => p.Description).HasMaxLength(1000);
+            builder.Property(p => p.Price).HasColumnType("decimal(18,2)");
+            builder.Property(p => p.QuantityInStock).HasDefaultValue(0);
+            builder.Property(p => p.CreatedAt).IsRequired();
+            builder.Property(p => p.UpdatedAt).IsRequired(false);
+            builder.Property(p => p.IsActive).HasDefaultValue(true);
+            builder.Property(p => p.IsDeleted).HasDefaultValue(false);
+            builder.Property(p => p.ImagePath).HasMaxLength(500).IsRequired(false);
         }
     }
 }

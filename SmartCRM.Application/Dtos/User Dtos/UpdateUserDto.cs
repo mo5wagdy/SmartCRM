@@ -12,5 +12,6 @@ namespace SmartCRM.Application.Dtos.User_Dtos
         public string Phone { get; set; } = string.Empty;
         public string Role { get; set; } = "User";
         public string Status { get; set; } = "Active";
+        public string? ImagePath { get; set; }
     }
 }

@@ -16,6 +16,9 @@ namespace SmartCRM.Domain.Entities
         public string Status { get; set; } = "New"; // New, Contacted, Qualifieds
         public string? Notes { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; } = false;
 
         //Foreign Keys
         public int? AssignedTo { get; set; }

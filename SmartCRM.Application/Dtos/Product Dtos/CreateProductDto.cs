@@ -12,5 +12,6 @@ namespace SmartCRM.Application.Dtos.Product_Dtos
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public int QuantityInStock { get; set; }
+        public string? ImagePath { get; set; }
     }
 }

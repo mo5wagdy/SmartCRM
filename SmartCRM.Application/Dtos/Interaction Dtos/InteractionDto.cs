@@ -20,8 +20,10 @@ namespace SmartCRM.Application.Dtos.Interaction_Dtos
         int CreatedBy,
         int? AssignedTo,
         int? CustomerId,
-        int? DealId
-        
+        int? DealId,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted
     );
 
 

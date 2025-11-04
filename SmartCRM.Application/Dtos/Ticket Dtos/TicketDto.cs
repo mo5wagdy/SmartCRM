@@ -15,6 +15,9 @@ namespace SmartCRM.Application.Dtos.Ticket_Dtos
         string Status,
         string Priority,
         DateTime CreatedAt,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted,
         int CustomerId,
         int? AssignedTo
     );

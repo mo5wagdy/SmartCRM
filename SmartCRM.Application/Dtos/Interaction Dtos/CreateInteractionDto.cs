@@ -10,7 +10,7 @@ namespace SmartCRM.Application.Dtos.Interaction_Dtos
     {
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public DateTime InteractionDate { get; set; } = DateTime.UtcNow;
+        public DateTime? InteractionDate { get; set; }
         public string ImteractionType { get; set; } = "Call";
         public string Status { get; set; } = "Scheduled";
         public string RelatedTo { get; set; } = string.Empty;

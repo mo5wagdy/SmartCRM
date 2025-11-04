@@ -11,7 +11,7 @@ namespace SmartCRM.Application.Dtos.Deal_Dtos
         public string Title { get; set; } = string.Empty;
         public decimal Value { get; set; }
         public string Stage { get; set; } = "Negotiating";
-        public DateTime ExpectedCloseDate { get; set; } = DateTime.UtcNow;
+        public DateTime ExpectedCloseDate { get; set; }
         public int CustomerId { get; set; }
         public int? AssignedTo { get; set; }
     }

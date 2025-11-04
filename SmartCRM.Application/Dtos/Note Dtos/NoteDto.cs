@@ -14,9 +14,11 @@ namespace SmartCRM.Application.Dtos.Note_Dtos
         string RelatedTo,
         int RelatedId,
         DateTime CreatedAt,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted,
         int? CustomerId,
         int? DealId,
-        int? ContactId,
         int? UserId
     );
 }

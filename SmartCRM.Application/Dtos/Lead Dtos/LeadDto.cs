@@ -9,6 +9,7 @@ namespace SmartCRM.Application.Dtos.Lead_Dtos
     public record LeadDto
         
     (
+    
         int LeadId,
         string ContactName,
         string Email,
@@ -17,6 +18,9 @@ namespace SmartCRM.Application.Dtos.Lead_Dtos
         string Status,
         string? Notes,
         DateTime CreatedAt,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted,
         int? AssignedTo,
         int? CustomerId
     );

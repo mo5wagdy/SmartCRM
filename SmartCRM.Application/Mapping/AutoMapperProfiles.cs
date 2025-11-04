@@ -22,7 +22,6 @@ namespace SmartCRM.Application.Mapping
     {
         public AutoMapperProfiles()
         {
-            // CreateMap<Source, Destination>();
             CreateMap<Company, CompanyDto>().ReverseMap();
             CreateMap<CreateCompanyDto, Company>();
             CreateMap<UpdateCompanyDto, Company>();
@@ -33,7 +32,7 @@ namespace SmartCRM.Application.Mapping
 
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<CreateUserDto, User>()
-                .ForMember(dest => dest.PasswordHash, opt => opt.Ignore()); // Password handled by service
+                .ForMember(dest => dest.PasswordHash, opt => opt.Ignore());
             CreateMap<UpdateUserDto, User>();
 
             CreateMap<Product, ProductDto>().ReverseMap();

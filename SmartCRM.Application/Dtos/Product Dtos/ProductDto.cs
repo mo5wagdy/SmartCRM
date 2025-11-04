@@ -13,6 +13,10 @@ namespace SmartCRM.Application.Dtos.Product_Dtos
         string Description,
         decimal Price,
         int QuantityInStock,
-        DateTime CreatedAt
+        DateTime CreatedAt,
+        DateTime? UpdatedAt,
+        bool IsActive,
+        bool IsDeleted,
+        string ImagePath
     );
 }

@@ -12,7 +12,9 @@ namespace SmartCRM.Application.Validation.CommonValidators
     {
         public CreateDealDtoValidator()
         {
-            RuleFor(x => x.Title).NotEmpty().MaximumLength(250);
+            RuleFor(x => x.Title).NotEmpty().MaximumLength(200);
+            RuleFor(x => x.Value).GreaterThanOrEqualTo(0);
+            RuleFor(x => x.Stage).NotEmpty().MaximumLength(100);
             RuleFor(x => x.CustomerId).GreaterThan(0);
         }
     }

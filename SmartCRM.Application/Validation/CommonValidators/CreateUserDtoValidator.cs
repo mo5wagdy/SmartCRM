@@ -15,6 +15,8 @@ namespace SmartCRM.Application.Validation.CommonValidators
             RuleFor(x => x.FullName).NotEmpty().MaximumLength(200);
             RuleFor(x => x.Email).NotEmpty().EmailAddress();
             RuleFor(x => x.Password).NotEmpty().MinimumLength(8);
+            RuleFor(x => x.Role).NotEmpty();
+            RuleFor(x => x.ImagePath).MaximumLength(500);
         }
     }
 }

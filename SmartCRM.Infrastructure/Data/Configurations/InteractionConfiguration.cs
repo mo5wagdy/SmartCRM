@@ -19,23 +19,14 @@ namespace SmartCRM.Infrastructure.Data.Configurations
 
             builder.HasKey(a => a.InteractionId);
 
-            builder.Property(a => a.Title)
-                   .IsRequired()
-                   .HasMaxLength(250);
-
-            builder.Property(a => a.Description)
-                   .HasMaxLength(1000);
-
-            builder.Property(a => a.ImteractionType)
-                   .IsRequired()
-                   .HasMaxLength(50);
-
-            builder.Property(a => a.Status)
-                   .IsRequired()
-                   .HasMaxLength(50);
-
-            builder.Property(a => a.InteractionDate)
-                   .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(a => a.Title).IsRequired().HasMaxLength(250);
+            builder.Property(a => a.Description).HasMaxLength(1000);
+            builder.Property(a => a.ImteractionType).IsRequired().HasMaxLength(50);
+            builder.Property(a => a.Status).IsRequired().HasMaxLength(50);
+            builder.Property(a => a.InteractionDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(a => a.UpdatedAt).IsRequired(false);
+            builder.Property(a => a.IsActive).HasDefaultValue(true);
+            builder.Property(a => a.IsDeleted).HasDefaultValue(false);
 
             // Relationships
 

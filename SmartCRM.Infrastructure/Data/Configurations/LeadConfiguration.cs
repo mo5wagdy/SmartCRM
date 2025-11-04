@@ -17,26 +17,15 @@ namespace SmartCRM.Infrastructure.Data.Configurations
 
             builder.HasKey(l => l.LeadId);
 
-            builder.Property(l => l.ContactName)
-                   .IsRequired()
-                   .HasMaxLength(200);
-
-            builder.Property(l => l.Email)
-                   .IsRequired()
-                   .HasMaxLength(150);
-
-            builder.Property(l => l.ContactPhone)
-                   .IsRequired()
-                   .HasMaxLength(25);
-
-            builder.Property(l => l.Source)
-                   .HasMaxLength(100);
-
-            builder.Property(l => l.Status)
-                   .HasMaxLength(50);
-
-            builder.Property(l => l.CreatedAt)
-                   .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(l => l.ContactName).IsRequired().HasMaxLength(200);
+            builder.Property(l => l.Email).IsRequired().HasMaxLength(150);
+            builder.Property(l => l.ContactPhone).IsRequired().HasMaxLength(25);
+            builder.Property(l => l.Source).IsRequired().HasMaxLength(100);
+            builder.Property(l => l.Status).IsRequired().HasMaxLength(50);
+            builder.Property(l => l.CreatedAt).IsRequired().HasDefaultValueSql("CURRENT_TIMESTAMP");
+            builder.Property(l => l.UpdatedAt).IsRequired(false);
+            builder.Property(l => l.IsActive).HasDefaultValue(true);
+            builder.Property(l => l.IsDeleted).HasDefaultValue(false);
 
             //Relationships
 

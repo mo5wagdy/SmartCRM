@@ -11,7 +11,8 @@ namespace SmartCRM.Application.Dtos.User_Dtos
         public string FullName { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Phone { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty; // raw password -> hash in service
+        public string Password { get; set; } = string.Empty;
         public string Role { get; set; } = "User";
+        public string ImagePath { get; set; }
     }
 }

@@ -14,6 +14,9 @@ namespace SmartCRM.Domain.Entities
         public DateTime InteractionDate { get; set; } = DateTime.UtcNow;
         public string ImteractionType { get; set; } = "Call"; // Call, Meeting, Email, Task
         public string Status { get; set; } = "Scheduled"; // Scheduled, Completed, Canceled
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsActive { get; set; } = true;
+        public bool IsDeleted { get; set; } = false;
 
         //Related entities info
         public string RelatedTo { get; set; }

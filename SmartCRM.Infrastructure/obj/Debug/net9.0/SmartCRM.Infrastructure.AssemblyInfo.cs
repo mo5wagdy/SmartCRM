@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCRM.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61429f4ae974eb352470807103e4d871ebf15bbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+082e48c229dd0c750650dd969f4b775f0c3a5f4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCRM.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCRM.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

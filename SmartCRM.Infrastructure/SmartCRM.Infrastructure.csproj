@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\SmartCRM.Application\SmartCRM.Application.csproj" />
     <ProjectReference Include="..\SmartCRM.Domain\SmartCRM.Domain.csproj" />
   </ItemGroup>
 

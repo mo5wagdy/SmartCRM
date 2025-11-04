@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SmartCRM.Infrastructure.DependencyInjection;
 using SmartCRM.Infrastructure.Data;
 using SmartCRM.Infrastructure.Data.Seed;
 
@@ -10,6 +11,8 @@ builder.Services.AddDbContext<CrmDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// Add Infrastructure dependencies
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 

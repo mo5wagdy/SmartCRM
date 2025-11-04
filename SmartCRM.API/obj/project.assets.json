@@ -1819,6 +1819,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "9.0.10",
           "Microsoft.Extensions.Identity.Core": "9.0.10",
+          "SmartCRM.Application": "1.0.0",
           "SmartCRM.Domain": "1.0.0"
         },
         "compile": {

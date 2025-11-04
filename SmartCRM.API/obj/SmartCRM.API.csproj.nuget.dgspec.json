@@ -279,6 +279,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\SmartCRM.Application.csproj": {
+                "projectPath": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\SmartCRM.Application.csproj"
+              },
               "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Domain\\SmartCRM.Domain.csproj": {
                 "projectPath": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Domain\\SmartCRM.Domain.csproj"
               }

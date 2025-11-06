@@ -110,9 +110,9 @@ If you'd like to contribute, feel free to open issues or PRs after the repositor
 
 ## 🧑‍💻 Author
 
-**Smart CRM** — Designed & Developed by *Muhammed Wagdy*  
-**📧 Email:** mohamed5wagdy@gmail.com.com
-**🔗 LinkedIn:** https://linkedin.com/in/muhammed-fouda
-**📞 Phone:** +20 1554503750
+-**Smart CRM** — Designed & Developed by *Muhammed Wagdy*  
+-**📧 Email:** mohamed5wagdy@gmail.com
+-**🔗 LinkedIn:** https://linkedin.com/in/muhammed-fouda
+-**📞 Phone:** +20 1554503750
 
 

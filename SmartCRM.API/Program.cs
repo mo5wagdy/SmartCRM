@@ -13,6 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Add Infrastructure dependencies
 builder.Services.AddInfrastructure();
+// Add Application dependencies
+builder.Services.AddApplication();
 
 var app = builder.Build();
 

@@ -14,5 +14,6 @@ namespace SmartCRM.Application.Dtos.Customer_Dtos
         public string Address { get; set; } = string.Empty;
         public string? CompanyName { get; set; }
         public string CustomerType { get; set; } = "Indiviual";
+        public decimal Score { get; set; } = 0m; // => Only For Read == Implemented Only In Service
     }
 }

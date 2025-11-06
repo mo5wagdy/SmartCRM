@@ -179,3 +179,4 @@ H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\Microsoft.Extensions.Dia
 H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
 H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

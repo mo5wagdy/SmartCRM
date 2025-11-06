@@ -19,6 +19,7 @@ namespace SmartCRM.Application.Dtos.Customer_Dtos
         DateTime? UpdatedAt,
         bool IsActive,
         bool IsDeleted,
-        string Status
+        string Status,
+        decimal Score
     );
 }

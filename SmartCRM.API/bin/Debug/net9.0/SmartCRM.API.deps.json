@@ -9,7 +9,6 @@
       "SmartCRM.API/1.0.0": {
         "dependencies": {
           "AutoMapper": "15.1.0",
-          "FluentValidation": "12.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.10",
           "Microsoft.EntityFrameworkCore.Design": "9.0.10",
           "SmartCRM.Application": "1.0.0",
@@ -68,11 +67,23 @@
           }
         }
       },
-      "FluentValidation/12.0.0": {
+      "FluentValidation/12.1.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
             "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.0.0"
+            "fileVersion": "12.1.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.0": {
+        "dependencies": {
+          "FluentValidation": "12.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.0.0"
           }
         }
       },
@@ -1125,7 +1136,7 @@
       "SmartCRM.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "15.1.0",
-          "FluentValidation": "12.0.0",
+          "FluentValidation": "12.1.0",
           "SmartCRM.Domain": "1.0.0"
         },
         "runtime": {
@@ -1145,10 +1156,13 @@
       },
       "SmartCRM.Infrastructure/1.0.0": {
         "dependencies": {
+          "FluentValidation": "12.1.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.0",
           "Microsoft.EntityFrameworkCore": "9.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "9.0.10",
           "Microsoft.Extensions.Identity.Core": "9.0.10",
+          "SmartCRM.Application": "1.0.0",
           "SmartCRM.Domain": "1.0.0"
         },
         "runtime": {
@@ -1187,12 +1201,19 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
-    "FluentValidation/12.0.0": {
+    "FluentValidation/12.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
-      "path": "fluentvalidation/12.0.0",
-      "hashPath": "fluentvalidation.12.0.0.nupkg.sha512"
+      "sha512": "sha512-FqWEn8BdbbFEHGanj9K8SVo+LyBeFWy2rolaE+e1TNUbifr8M7Iss+I1AqTSc8kjKtvjl/WN4XIHiRpslh42bA==",
+      "path": "fluentvalidation/12.1.0",
+      "hashPath": "fluentvalidation.12.1.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p9ZnpVCUvkelSfqFYZP9aMtnuRlDRkrAAPqjQGG+1mVVn8zxE0bc1/RAFRBZKsPglbMBQOx8wXOZhg2fGstacQ==",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

@@ -16,3 +16,5 @@ H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\obj\Debug\net9.0\refint\SmartC
 H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\obj\Debug\net9.0\SmartCRM.Infrastructure.pdb
 H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\obj\Debug\net9.0\SmartCRM.Infrastructure.genruntimeconfig.cache
 H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\obj\Debug\net9.0\ref\SmartCRM.Infrastructure.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\bin\Debug\net9.0\SmartCRM.Application.dll
+H:\CV Projects\8\SmartCRM\SmartCRM.Infrastructure\bin\Debug\net9.0\SmartCRM.Application.pdb

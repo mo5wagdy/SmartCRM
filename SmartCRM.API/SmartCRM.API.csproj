@@ -21,9 +21,4 @@
     <ProjectReference Include="..\SmartCRM.Infrastructure\SmartCRM.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Extensions\" />
-  </ItemGroup>
-
 </Project>

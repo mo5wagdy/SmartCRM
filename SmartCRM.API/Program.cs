@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SmartCRM.Infrastructure.DependencyInjection;
 using SmartCRM.Infrastructure.Data;
 using SmartCRM.Infrastructure.Data.Seed;
+using SmartCRM.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add DbContext.
@@ -18,6 +19,9 @@ builder.Services.AddApplication();
 
 var app = builder.Build();
 
+//Add Exception Handling Middleware
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 // apply migrations and seed (safe in dev; adapt for prod)
 using (var scope = app.Services.CreateScope())
 {
@@ -33,6 +37,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseCors();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

@@ -34,9 +34,9 @@ namespace SmartCRM.Infrastructure.DependencyInjection
             // Register application services (business logic)
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<ILeadService, LeadService>();
+            services.AddScoped<IDealService, DealService>();
 
             // TODO: register other services as they are implemented:
-            // services.AddScoped<IDealService, DealService>();
             // services.AddScoped<IProductService, ProductService>();
             // services.AddScoped<INoteService, NoteService>();
             // services.AddScoped<IActivityService, ActivityService>();

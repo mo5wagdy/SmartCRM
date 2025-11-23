@@ -16,12 +16,12 @@ namespace SmartCRM.Application.Services
     {
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
-        //private readonly INoteService _noteService;
-        public DealService(IUnitOfWork uow, IMapper mapper/*, INoteService noteService*/)
+        private readonly INoteService _noteService;
+        public DealService(IUnitOfWork uow, IMapper mapper, INoteService noteService)
         {
             _uow = uow;
             _mapper = mapper;
-            //_noteService = noteService;
+            _noteService = noteService;
         }
         public async Task<IEnumerable<DealDto>> GetAllAsync(int Page = 1, int PageSize = 20, string? Q = null)
         {
@@ -45,7 +45,7 @@ namespace SmartCRM.Application.Services
         
         public async Task<DealDto?> GetByIdAsync(int Id)
         {
-            var deal = _uow.Deals.GetByIdAsync(Id);
+            var deal = await _uow.Deals.GetByIdAsync(Id);
             return deal == null ? null : _mapper.Map<DealDto>(deal);
         }
         public async Task<DealDto> CreateAsync(CreateDealDto dto)
@@ -100,18 +100,19 @@ namespace SmartCRM.Application.Services
                     if (product == null || product.QuantityInStock < dp.Quantity)
                         throw new BusinessRuleException($"Insufficient stock for product {product?.Name ?? dp.ProductId.ToString()}");
                     product.QuantityInStock -= dp.Quantity;
+                    await _uow.Products.UpdateAsync(product);
                 }
-
-                var prevStage = deal.Stage;
-                deal.Stage = ToStage;
-                await _uow.Deals.UpdateAsync(deal);
-                await _uow.SaveAsync();
-
-                //Log the stage change as Note
-                //await _noteService.LogDealStageChangeAsync(deal.DealId, prevStage, toStage, userId);
-
-                return _mapper.Map<DealDto>(deal);
             }
+
+            var prevStage = deal.Stage;
+            deal.Stage = ToStage;
+            await _uow.Deals.UpdateAsync(deal);
+            await _uow.SaveAsync();
+
+            //Log the stage change as Note
+            await _noteService.LogDealStageChangeAsync(deal.DealId, prevStage, ToStage, UserId);
+
+            return _mapper.Map<DealDto>(deal);
         }
     }
 }

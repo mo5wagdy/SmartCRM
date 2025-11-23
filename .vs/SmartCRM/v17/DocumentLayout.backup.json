@@ -21,6 +21,19 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DealsController.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
+              "RelativeDocumentMoniker": "SmartCRM.API\\Controllers\\DealsController.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
+              "RelativeToolTip": "SmartCRM.API\\Controllers\\DealsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:13:11.66Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
@@ -50,26 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DealsController.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
-              "RelativeDocumentMoniker": "SmartCRM.API\\Controllers\\DealsController.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
-              "RelativeToolTip": "SmartCRM.API\\Controllers\\DealsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:13:11.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DealService.cs",
               "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\DealService.cs",
               "RelativeDocumentMoniker": "SmartCRM.Application\\Services\\DealService.cs",
               "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\DealService.cs",
               "RelativeToolTip": "SmartCRM.Application\\Services\\DealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwEoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T22:12:24.749Z",
               "EditorCaption": ""

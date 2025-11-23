@@ -17,11 +17,13 @@ namespace SmartCRM.Application.Services
     {
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
+        private readonly INoteService _noteService;
 
-        public CustomerService(IUnitOfWork uow, IMapper mapper)
+        public CustomerService(IUnitOfWork uow, IMapper mapper, INoteService _svc)
         {
             _uow = uow;
             _mapper = mapper;
+            _noteService = _svc;
         }
 
         public async Task<CustomerDto> CreateAsync(CreateCustomerDto dto)

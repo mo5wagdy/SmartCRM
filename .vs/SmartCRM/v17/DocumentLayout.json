@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "H:\\CV Projects\\8\\SmartCRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\interfaces\\services\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\interfaces\\services\\inoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.api\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|solutionrelative:smartcrm.api\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|solutionrelative:smartcrm.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,41 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotesController.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\NotesController.cs",
-              "RelativeDocumentMoniker": "SmartCRM.API\\Controllers\\NotesController.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\NotesController.cs",
-              "RelativeToolTip": "SmartCRM.API\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T21:54:57.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NoteService.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\NoteService.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Application\\Services\\NoteService.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\NoteService.cs",
-              "RelativeToolTip": "SmartCRM.Application\\Services\\NoteService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SmartCRM.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SmartCRM.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T21:53:30.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "INoteService.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Interfaces\\Services\\INoteService.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Application\\Interfaces\\Services\\INoteService.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Interfaces\\Services\\INoteService.cs",
-              "RelativeToolTip": "SmartCRM.Application\\Interfaces\\Services\\INoteService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T21:52:58.877Z",
+              "WhenOpened": "2025-12-04T12:40:12.205Z",
               "EditorCaption": ""
             }
           ]

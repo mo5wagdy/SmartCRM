@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "H:\\CV Projects\\8\\SmartCRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\services\\dealservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\services\\dealservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.api\\controllers\\dealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57593DF-B2ED-4243-B7AF-091772D59622}|SmartCRM.API\\SmartCRM.API.csproj|solutionrelative:smartcrm.api\\controllers\\dealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\services\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|h:\\cv projects\\8\\smartcrm\\smartcrm.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F532A6-594C-4661-BF47-EA717DD438D6}|SmartCRM.Application\\SmartCRM.Application.csproj|solutionrelative:smartcrm.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DealsController.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
-              "RelativeDocumentMoniker": "SmartCRM.API\\Controllers\\DealsController.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.API\\Controllers\\DealsController.cs",
-              "RelativeToolTip": "SmartCRM.API\\Controllers\\DealsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\NoteService.cs",
+              "RelativeDocumentMoniker": "SmartCRM.Application\\Services\\NoteService.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\NoteService.cs",
+              "RelativeToolTip": "SmartCRM.Application\\Services\\NoteService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:13:11.66Z",
+              "WhenOpened": "2025-11-24T02:05:41.483Z",
               "EditorCaption": ""
             },
             {
@@ -64,14 +68,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DealService.cs",
-              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\DealService.cs",
-              "RelativeDocumentMoniker": "SmartCRM.Application\\Services\\DealService.cs",
-              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\DealService.cs",
-              "RelativeToolTip": "SmartCRM.Application\\Services\\DealService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAkwEoAAAAiAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "SmartCRM.Application\\Services\\ProductService.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "SmartCRM.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T22:12:24.749Z",
+              "WhenOpened": "2025-11-24T02:01:14.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "SmartCRM.Application\\Interfaces\\Services\\IProductService.cs",
+              "ToolTip": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeToolTip": "SmartCRM.Application\\Interfaces\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:00:21.058Z",
               "EditorCaption": ""
             }
           ]

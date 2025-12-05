@@ -21,7 +21,7 @@ namespace SmartCRM.API.Controllers
             _logger = loger;
         } 
 
-        [HttpGet(Name = "GetCustomer")]
+        [HttpGet(Name = "GetALLCustomers")]
         [ProducesResponseType(typeof(IEnumerable<CustomerDto>), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAll([FromQuery] int Page = 1, [FromQuery] int PageSize = 20, [FromQuery] string? Q = null, CancellationToken cancellationToken = default)
         {

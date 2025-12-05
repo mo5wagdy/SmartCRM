@@ -21,4 +21,8 @@
     <ProjectReference Include="..\SmartCRM.Infrastructure\SmartCRM.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Pictures\ProductImagesUploads\" />
+  </ItemGroup>
+
 </Project>

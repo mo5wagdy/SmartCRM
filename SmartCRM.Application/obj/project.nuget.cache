@@ -15,5 +15,15 @@
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\SmartCRM.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "H:\\CV Projects\\8\\SmartCRM\\SmartCRM.Application\\SmartCRM.Application.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

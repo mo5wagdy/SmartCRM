@@ -26,7 +26,7 @@ namespace SmartCRM.Application.Services
             _noteService = _svc;
         }
 
-        public async Task<CustomerDto> CreateAsync(CreateCustomerDto dto)
+        public async Task<CustomerDto?> CreateAsync(CreateCustomerDto dto)
         {
             var entity = _mapper.Map<Customer>(dto);
             entity.CreatedAt = DateTime.UtcNow;
@@ -35,7 +35,7 @@ namespace SmartCRM.Application.Services
             return _mapper.Map<CustomerDto>(entity);
         }
 
-        public async Task<IEnumerable<CustomerDto>> GetAllAsync(int Page = 1, int PageSize = 20, string? Q = null)
+        public async Task<IEnumerable<CustomerDto?>> GetAllAsync(int Page = 1, int PageSize = 20, string? Q = null)
         {
             var query = _uow.Customers.QueryNoTracking().Where(c => !c.IsDeleted );
 

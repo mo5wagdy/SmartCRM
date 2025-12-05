@@ -5,15 +5,19 @@ using SmartCRM.Infrastructure.Data.Seed;
 using SmartCRM.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
-// Add DbContext.
-builder.Services.AddDbContext<CrmDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add DbContext.
+builder.Services.AddDbContext<CrmDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 // Add Infrastructure dependencies
 builder.Services.AddInfrastructure();
+
 // Add Application dependencies
 builder.Services.AddApplication();
 
@@ -36,10 +40,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseHttpsRedirection();
-app.UseRouting();
-app.UseCors();
+
 app.UseAuthentication();
+
 app.UseAuthorization();
+
 app.MapControllers();
+
 app.Run();

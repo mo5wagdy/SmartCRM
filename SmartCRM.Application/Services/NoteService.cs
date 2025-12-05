@@ -38,7 +38,7 @@ namespace SmartCRM.Application.Services
 
         public async Task<IEnumerable<NoteDto>> GetAllAsync(int Page, int PageSize, string? Q, string? RelatedTo, int? RelatedId, int? CustomerId, int? DealId, int? UserId, DateTime? From, DateTime? To)
         {
-            var query = _uow.Notes.Query().Where(n => !n.IsDeleted);
+            var query = _uow.Notes.QueryNoTracking().Where(n => !n.IsDeleted);
 
             if (!string.IsNullOrEmpty(Q))
                 query = query.Where(n => n.Content.Contains(Q));

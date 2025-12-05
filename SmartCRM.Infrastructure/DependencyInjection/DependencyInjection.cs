@@ -37,10 +37,9 @@ namespace SmartCRM.Infrastructure.DependencyInjection
             services.AddScoped<IDealService, DealService>();
             services.AddScoped<INoteService, NoteService>();
             services.AddScoped<IProductService, ProductService>();
-
+            services.AddScoped<IInteractionService, InteractionService>();
 
             // TODO: register other services as they are implemented:
-            // services.AddScoped<IActivityService, ActivityService>();
             // services.AddScoped<IUserService, UserService>();
 
             return services;
